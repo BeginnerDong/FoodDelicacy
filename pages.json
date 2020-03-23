@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",//设置页面标题文字
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/snackDetail/snackDetail",
+			"style": {
+				"navigationBarTitleText": "",//小吃城详情
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/orderConfim/orderConfim",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/foodShopDetail/foodShopDetail",
+			"style": {
+				"navigationBarTitleText": "",//美食店详情
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/couponTake/couponTake",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/like/like",
+			"style": {
+				"navigationBarTitleText": "收藏",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/chargeMoney/chargeMoney",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_address/user_address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user_addressAdd/user_addressAdd",
+			"style": {
+				"navigationBarTitleText": "新增地址",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/userOrder/userOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user-tidings/user-tidings",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/user-myCoupon/user-myCoupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/foodShop/foodShop",
+			"style": {
+				"navigationBarTitleText": "美食店",//单店-美食店
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/foodShop-user/foodShop-user",
+			"style": {
+				"navigationBarTitleText": "我的",//单店-美食店-我的
+				"onReachBottomDistance":100
+			}
+		},
+		{
+			"path": "pages/snackShop/snackShop",
+			"style": {
+				"navigationBarTitleText": "小吃城",//单店-小吃城
+				"onReachBottomDistance":100,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/snackShop-user/snackShop-user",
+			"style": {
+				"navigationBarTitleText": "我的",//单店-小吃城-我的
+				"onReachBottomDistance":100
+			}
+		}
+    ],
+	"globalStyle": {
+		//"navigationStyle":"custom",
+		"navigationBarTextStyle": "white",//导航栏文字
+		"navigationBarTitleText": "美食荟",
+		"navigationBarBackgroundColor": "#222"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

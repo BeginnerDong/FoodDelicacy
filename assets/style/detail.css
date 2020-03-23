@@ -1,0 +1,75 @@
+
+.detailTBj .bj{width: 100%;height: 200rpx;box-sizing: border-box;}
+.detailTBj .bj image{width: 100%;height: 100%;}
+.balckIcon{width: 22rpx;height:37rpx;position: absolute;top: 64rpx;left: 4%;}
+.balckIcon image{width: 100%;height: 100%;}
+
+
+/* 数量加减 */
+.numBox view{ height: 30rpx; text-align: center; box-sizing: border-box;}
+.numBox .btn{width: 30rpx;line-height: 24rpx;color: #999; font-size:38rpx; border-radius: 50%;border:1px solid #eee;}
+.numBox .btn.add{border-color: #FC73AA;color: #fff;border:1px solid #FCC401;}
+.numBox view.num{ min-width: 40rpx; color: #333;line-height: 30rpx; font-size: 26rpx;padding: 0 6rpx;}
+
+.underBtn .Bbtn{display: block;width: 140rpx;line-height: 50rpx; border:1px solid #eee; text-align: center; margin-left: 30rpx; border-radius: 10rpx; font-size: 24rpx;box-sizing: border-box;}
+
+.detailTBj .bj{width: 100%;height: 200rpx;box-sizing: border-box;}
+.detailTBj .bj image{width: 100%;height: 100%;}
+.balckIcon{width: 22rpx;height:37rpx;position: absolute;top: 64rpx;left: 4%;}
+.balckIcon image{width: 100%;height: 100%;}
+
+.detail-name{height: 184rpx;box-sizing: border-box;position: relative;margin-top: -70rpx;z-index: 1;}
+.detail-name .name{width: 65%;}
+.rrBtn .btn{line-height: 40rpx;border-radius: 25rpx;padding: 0 20rpx;border: 1px solid #eee;}
+.rrBtn .btn.on{color: #fff;background: #fcc401;}
+
+.shopIcon{width: 28rpx;height: 28rpx;}
+.snavScroll{white-space: nowrap;}
+.orderNav .snavScroll .tt{width: auto;display: inline-block;margin:0 30rpx;}
+
+.foodList{flex-wrap: wrap;align-items: flex-start; column-count: 3; column-gap: 0;padding-bottom: 30rpx;}
+.foodList .item{width: 210rpx;padding: 10rpx 10rpx 20rpx 10rpx;box-sizing: border-box;background: #fff;border-radius: 10rpx;box-shadow: 0 0 5px rgba(0,0,0,0.1);margin:0 10rpx 30rpx 10rpx; break-inside: avoid;position: relative;}
+.nameLable{position: absolute;top: 20rpx;left: 0;z-index: 1;line-height: 40rpx;height: 40rpx;padding: 0 10rpx 0 6rpx;box-sizing: border-box;background: rgba(0,0,0,0.5);color: #fff;font-size: 24rpx;border-radius: 0 20rpx 20rpx 0;min-width: 110rpx;}
+.foodList .item:nth-of-type(3n){margin-right: 0;}
+.foodList .item .pic{width: 100%;height: 190rpx;}
+.foodList .item .pic image{width: 100%;height: 100%;}
+.foodList .item .name{width: 75%;height: 40rpx;overflow: hidden;}
+
+/* 档口列表 */
+.stallsBox{padding: 0 14rpx; }
+.stallsBox .foodList .item{margin: 0 0px 12rpx 4rpx;}
+
+.selBtn{width: 100rpx;height: 40rpx;line-height:40rpx;font-size: 20rpx;color: #fff;background: #FCC401;border-radius: 20rpx;text-align: center;}
+.addCarBtn{height: 46rpx;line-height: 46rpx;text-align: center;background: #FCC401;color: #fff;font-size: 24rpx;padding: 0 20rpx;box-sizing: border-box;border-radius: 30rpx;}
+
+.likeIcon{width: 28rpx;height: 28rpx;}
+.likeIcon image{width: 100%;height: 100%;}
+
+.phoneIcon{width: 26rpx;height: 26rpx;}
+
+/* 选规格弹框 */
+.specsLis{flex-wrap: wrap;padding: 10rpx 0 15rpx 0;color: #666;text-align: center;}
+.specsLis .btn{padding: 0 20rpx;height: 50rpx;line-height: 46rpx;text-align: center;margin:0 28rpx 20rpx 0;border: 1px solid #d7d7d7;border-radius: 8rpx;}
+.specsLis .btn.on{color: #FCC401;border-color: #FCC401;background: #fff8de;}
+
+.albumsShow{width: 92%;background: #fff;position: fixed;top: 15%;left: 50%;transform: translateX(-50%);z-index: 50;padding: 30rpx 45rpx;box-sizing: border-box;}
+.albumsShow .box{padding: 30rpx;}
+
+/* 底部固定按钮 圆角 */
+.fixB-radius {width: 92%;height: 100rpx;box-sizing: border-box;box-shadow: 0 -4rpx 10rpx rgba(0, 0, 0, 0.1);display: flex;justify-content: space-between;align-items: center;position: fixed;bottom:20rpx;left: 4%;right: 4%; z-index: 30;border-radius: 50rpx;}
+.fixB-radius .left{width: 80%;background: #222;height: 100rpx;border-radius: 60rpx 0 0 60rpx; }
+.fixB-radius .left .icon{width: 109rpx;height: 124rpx;position: relative;margin-top: -30rpx;}
+.fixB-radius .left .icon image{width: 100%;height: 100%;}
+.fixB-radius .left .num{position: absolute;top: 37rpx;right: 0;text-align: center;font-size: 20rpx;color: #fff;line-height: 30rpx;min-width: 30rpx;height: 30rpx;border-radius: 15rpx;background: #ff2929;padding: 0 4rpx;box-sizing: border-box;}
+.fixB-radius .payBtn{width: 220rpx;line-height: 100rpx;text-align: center;background: #fcc401;border-radius: 0 50rpx 50rpx 0;}
+
+/* 详情页底部菜单 */
+.xqbotomBar {width: 100%;box-sizing: border-box;background: #fff;box-shadow: 0 -4rpx 10rpx rgba(0, 0, 0, 0.1);display: flex;justify-content: space-between;align-items: center;position: fixed;bottom: 0;left: 0;right: 0; z-index: 30;}
+.xqbotomBar .ite{width: 160rpx;text-align: center;font-size: 24rpx;color: #666;line-height: 30rpx;}
+.xqbotomBar .ite image{width: 34rpx;height: 34rpx;display: block;margin: 0 auto;}
+.xqbotomBar .payBtn{width: 260rpx;line-height: 100rpx;text-align: center;background: #fcc401;}
+
+.xqbotomBar .small-btn{width: 53%;}
+.xqbotomBar .small-btn .child{width: 25%;}
+.xqbotomBar .small-btn .icon image{width: 30rpx;height: 30rpx;margin: 0 auto;}
+
