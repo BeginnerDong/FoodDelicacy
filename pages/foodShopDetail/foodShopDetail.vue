@@ -136,14 +136,17 @@
 					<view class="price ftw fs14">88</view>
 					<view class="mgl10 fs10 color9">月售2365</view>
 				</view>
-				<view class="addCarBtn">加入购物车</view>
+				<view class="flexEnd">
+					<view class="addCarBtn">加入购物车</view>
+					<view class="addCarBtn mgl15"  @click="specsShow">选规格</view>
+				</view>
 			</view>
 			<view class="closeBtn" @click="albumsShow">×</view>
 		</view>
 		
 		<!-- 规格显示 -->
 		<view class="albumsShow whiteBj radius10 fs14" style="padding: 0;" v-show="is_specsShow">
-			<view class="closeBtn" @click="specsShow">×</view>
+			<view class="closeBtn" @click="specsClose">×</view>
 			<view class="box">
 				<view class="center fs15 mgb15">咖喱鸡肉饭</view>
 				<view class="">规格：</view>
@@ -268,8 +271,14 @@
 			},
 			specsShow(){
 				const self = this;
-				self.is_show = !self.is_show
+				self.is_show = true
 				self.is_specsShow = !self.is_specsShow
+				self.is_albumsShow = false
+			},
+			specsClose(){
+				const self = this;
+				self.is_show = false
+				self.is_specsShow = false
 			},
 			getMainData() {
 				const self = this;
